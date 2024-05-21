@@ -235,32 +235,30 @@ function createWindow(title, content, width = '30%', height = '50%') {
 }
 
 // App's code
-
-const threekhoh = `
-<iframe src="/3kho.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>
-`
-function threekhohfunction(){
+function threekhoh(){
     document.body.innerHTML += '<iframe src="/3kho.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
 }
 
-const asteroid = `
-<iframe id="ifr" src="/astroidv3.html" style="width:100%; height:100%;" frameborder="none"></iframe>
-`;
+function asteroid(){
+    document.body.innerHTML += '<iframe src="/astroidv3.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
 
-const calculator = `
-<iframe id="ifr" src="/calc.html" style="width:100%; height:100%; border:none;" frameborder="none"></iframe>
-`
-const dogeproxy = `
-<iframe id="ifr" src="/dogeub4.html" style="width:100%; height:100%;" frameborder="none"></iframe>
-`
-const eaglercraft = `
-<iframe id="ifr" src="/eaglercraft.1.8.8.html" style="width:100%; height:100%; border:none;" frameborder="none"></iframe>
-`
+function calculator(){
+    document.body.innerHTML += '<iframe src="/calc.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
 
-const impactjs = `
-<iframe id="ifr" src="/impactjs.html" style="width:100%; height:100%; border:none;" frameborder="none"></iframe>
-`
+function dogeproxy(){
+    document.body.innerHTML += '<iframe src="/dogeup4.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
 
-const incognito = `
-<iframe id="ifr" src="/incognito.html" style="width:100%; height:100%; border:none;" frameborder="none"></iframe>
-`
+function eaglercraft(){
+    document.body.innerHTML += '<iframe src="/eaglercraft.1.8.8.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
+
+function impactjs(){
+    document.body.innerHTML += '<iframe src="/impactjs.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
+
+function incognito(){
+    document.body.innerHTML += '<iframe src="/incognito.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
