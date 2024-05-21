@@ -239,6 +239,9 @@ function createWindow(title, content, width = '30%', height = '50%') {
 const threekhoh = `
 <iframe src="/3kho.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>
 `
+function threekhohfunction(){
+    document.body.innerHTML += '<iframe src="/3kho.html" frameborder="0" style="width: 100%; height: 100%; border: none;"></iframe>'
+}
 
 const asteroid = `
 <iframe id="ifr" src="/astroidv3.html" style="width:100%; height:100%;" frameborder="none"></iframe>
